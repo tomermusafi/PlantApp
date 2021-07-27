@@ -3,10 +3,19 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		27F593299CC4953C3DCAFEF3 /* Pods_PlantApp2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1A8A18664EFCCD396D968B7 /* Pods_PlantApp2.framework */; };
+		BC00455326AC93E900A5858B /* AddPlantViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC00455226AC93E900A5858B /* AddPlantViewController.swift */; };
+		BC0C217D26AC3B2200954F03 /* Plant.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0C217C26AC3B2200954F03 /* Plant.swift */; };
+		BC0C218026AC533300954F03 /* MyHomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0C217F26AC533300954F03 /* MyHomeTableViewCell.swift */; };
+		BC327CDE26AF1E14007C2613 /* DateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC327CDD26AF1E14007C2613 /* DateViewController.swift */; };
+		BC327CE126AF28E8007C2613 /* DateTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC327CE026AF28E8007C2613 /* DateTableViewCell.swift */; };
+		BC327CF726AF3AB8007C2613 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BC327CF626AF3AB8007C2613 /* GoogleService-Info.plist */; };
+		BC3F129626B0760000EBEF64 /* WaterTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC3F129526B0760000EBEF64 /* WaterTableViewCell.swift */; };
+		BC3F129926B076E800EBEF64 /* WaterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC3F129826B076E800EBEF64 /* WaterViewController.swift */; };
 		BC96758626903BC80054CEBC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC96758526903BC80054CEBC /* AppDelegate.swift */; };
 		BC96758826903BC80054CEBC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC96758726903BC80054CEBC /* SceneDelegate.swift */; };
 		BC96758A26903BC80054CEBC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC96758926903BC80054CEBC /* ViewController.swift */; };
@@ -16,6 +25,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		125269895CEA39D8C047D51F /* Pods-PlantApp2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlantApp2.release.xcconfig"; path = "Target Support Files/Pods-PlantApp2/Pods-PlantApp2.release.xcconfig"; sourceTree = "<group>"; };
+		BC00455226AC93E900A5858B /* AddPlantViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPlantViewController.swift; sourceTree = "<group>"; };
+		BC0C217C26AC3B2200954F03 /* Plant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plant.swift; sourceTree = "<group>"; };
+		BC0C217F26AC533300954F03 /* MyHomeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyHomeTableViewCell.swift; sourceTree = "<group>"; };
+		BC327CDD26AF1E14007C2613 /* DateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateViewController.swift; sourceTree = "<group>"; };
+		BC327CE026AF28E8007C2613 /* DateTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateTableViewCell.swift; sourceTree = "<group>"; };
+		BC327CF626AF3AB8007C2613 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		BC3F129526B0760000EBEF64 /* WaterTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterTableViewCell.swift; sourceTree = "<group>"; };
+		BC3F129826B076E800EBEF64 /* WaterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterViewController.swift; sourceTree = "<group>"; };
 		BC96758226903BC80054CEBC /* PlantApp2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlantApp2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC96758526903BC80054CEBC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BC96758726903BC80054CEBC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +42,8 @@
 		BC96758E26903BCB0054CEBC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BC96759126903BCB0054CEBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BC96759326903BCB0054CEBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE8B202E512778C36089688D /* Pods-PlantApp2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlantApp2.debug.xcconfig"; path = "Target Support Files/Pods-PlantApp2/Pods-PlantApp2.debug.xcconfig"; sourceTree = "<group>"; };
+		F1A8A18664EFCCD396D968B7 /* Pods_PlantApp2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PlantApp2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +51,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27F593299CC4953C3DCAFEF3 /* Pods_PlantApp2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		000CCD6EEE9C51FCE2F9F761 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CE8B202E512778C36089688D /* Pods-PlantApp2.debug.xcconfig */,
+				125269895CEA39D8C047D51F /* Pods-PlantApp2.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B6281D72EF678AE9C4C25C30 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F1A8A18664EFCCD396D968B7 /* Pods_PlantApp2.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		BC96757926903BC80054CEBC = {
 			isa = PBXGroup;
 			children = (
 				BC96758426903BC80054CEBC /* PlantApp2 */,
 				BC96758326903BC80054CEBC /* Products */,
+				000CCD6EEE9C51FCE2F9F761 /* Pods */,
+				B6281D72EF678AE9C4C25C30 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,6 +96,7 @@
 		BC96758426903BC80054CEBC /* PlantApp2 */ = {
 			isa = PBXGroup;
 			children = (
+				BC327CF626AF3AB8007C2613 /* GoogleService-Info.plist */,
 				BC96758526903BC80054CEBC /* AppDelegate.swift */,
 				BC96758726903BC80054CEBC /* SceneDelegate.swift */,
 				BC96758926903BC80054CEBC /* ViewController.swift */,
@@ -63,6 +104,13 @@
 				BC96758E26903BCB0054CEBC /* Assets.xcassets */,
 				BC96759026903BCB0054CEBC /* LaunchScreen.storyboard */,
 				BC96759326903BCB0054CEBC /* Info.plist */,
+				BC0C217C26AC3B2200954F03 /* Plant.swift */,
+				BC0C217F26AC533300954F03 /* MyHomeTableViewCell.swift */,
+				BC00455226AC93E900A5858B /* AddPlantViewController.swift */,
+				BC327CDD26AF1E14007C2613 /* DateViewController.swift */,
+				BC327CE026AF28E8007C2613 /* DateTableViewCell.swift */,
+				BC3F129526B0760000EBEF64 /* WaterTableViewCell.swift */,
+				BC3F129826B076E800EBEF64 /* WaterViewController.swift */,
 			);
 			path = PlantApp2;
 			sourceTree = "<group>";
@@ -74,9 +122,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BC96759626903BCB0054CEBC /* Build configuration list for PBXNativeTarget "PlantApp2" */;
 			buildPhases = (
+				2D18F9B2E32C53D6F2A558B6 /* [CP] Check Pods Manifest.lock */,
 				BC96757E26903BC80054CEBC /* Sources */,
 				BC96757F26903BC80054CEBC /* Frameworks */,
 				BC96758026903BC80054CEBC /* Resources */,
+				22F841E75C01ECC2EA56B990 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,6 +175,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BC96759226903BCB0054CEBC /* LaunchScreen.storyboard in Resources */,
+				BC327CF726AF3AB8007C2613 /* GoogleService-Info.plist in Resources */,
 				BC96758F26903BCB0054CEBC /* Assets.xcassets in Resources */,
 				BC96758D26903BC80054CEBC /* Main.storyboard in Resources */,
 			);
@@ -132,13 +183,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		22F841E75C01ECC2EA56B990 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PlantApp2/Pods-PlantApp2-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PlantApp2/Pods-PlantApp2-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PlantApp2/Pods-PlantApp2-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2D18F9B2E32C53D6F2A558B6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PlantApp2-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BC96757E26903BC80054CEBC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC3F129626B0760000EBEF64 /* WaterTableViewCell.swift in Sources */,
+				BC00455326AC93E900A5858B /* AddPlantViewController.swift in Sources */,
+				BC3F129926B076E800EBEF64 /* WaterViewController.swift in Sources */,
 				BC96758A26903BC80054CEBC /* ViewController.swift in Sources */,
+				BC327CDE26AF1E14007C2613 /* DateViewController.swift in Sources */,
+				BC327CE126AF28E8007C2613 /* DateTableViewCell.swift in Sources */,
+				BC0C217D26AC3B2200954F03 /* Plant.swift in Sources */,
 				BC96758626903BC80054CEBC /* AppDelegate.swift in Sources */,
+				BC0C218026AC533300954F03 /* MyHomeTableViewCell.swift in Sources */,
 				BC96758826903BC80054CEBC /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -283,6 +383,7 @@
 		};
 		BC96759726903BCB0054CEBC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE8B202E512778C36089688D /* Pods-PlantApp2.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -302,6 +403,7 @@
 		};
 		BC96759826903BCB0054CEBC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 125269895CEA39D8C047D51F /* Pods-PlantApp2.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
